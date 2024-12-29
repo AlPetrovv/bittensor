@@ -2,7 +2,7 @@
 
 ## Подготовка
 
-1. `git clone https://github.com/taopush/bittensor.git`   
+1. `git clone https://github.com/AlPetrovv/bittensor.git`   
 2. Создать env файлы по шаблонам в директориях `backend/envs` и `docker_compose/envs`
 3. `make dev-run` если используем docker.
 4. проверить что всё завелось
