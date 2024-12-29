@@ -15,13 +15,13 @@ A subnet, or subnetwork, is a network inside a network. In our case, the subnet 
 
 ### Structure
 
-1. [backend](https://github.com/taopush/bittensor/tree/master/backend)
-   1. [core](https://github.com/taopush/bittensor/tree/master/backend/core)
-      1. [api](https://github.com/taopush/bittensor/tree/master/backend/core/api)
-      2. [apps](https://github.com/taopush/bittensor/tree/master/backend/core/apps)
-      3. [tests](https://github.com/taopush/bittensor/tree/master/backend/core/tests)
-      4. [app_envs](https://github.com/taopush/bittensor/tree/master/backend/core/app_envs)
-      5. [nginx](https://github.com/taopush/bittensor/tree/master/nginx)
-2. [docker_compose](https://github.com/taopush/bittensor/tree/master/docker_compose)
-   1. [docker_envs](https://github.com/taopush/bittensor/tree/master/docker_compose/envs)
-3. [Frontend](https://github.com/taopush/backend/bittensor/tree/master/frontend)
+1. [backend](https://github.com/AlPetrovv/bittensor/tree/main/backend)
+   1. [core](https://github.com/AlPetrovv/bittensor/tree/main/backend/core)
+      1. [api](https://github.com/AlPetrovv/bittensor/tree/main/backend/core/api)
+      2. [apps](https://github.com/AlPetrovv/bittensor/tree/main/backend/core/apps)
+      3. [tests](https://github.com/AlPetrovv/bittensor/tree/main/backend/core/tests)
+      4. [app_envs](https://github.com/AlPetrovv/bittensor/tree/main/backend/core/app_envs)
+      5. [nginx](https://github.com/AlPetrovv/bittensor/tree/main/nginx)
+2. [docker_compose](https://github.com/AlPetrovv/bittensor/tree/main/docker_compose)
+   1. [docker_envs](https://github.com/AlPetrovv/bittensor/tree/main/docker_compose/envs)
+3. [Frontend](https://github.com/AlPetrovv/bittensor/tree/main/frontend)
