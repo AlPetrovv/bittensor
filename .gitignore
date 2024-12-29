@@ -1,0 +1,46 @@
+.vscode
+.idea/
+.venv/
+
+__pycache__/
+*.pyc
+*.mo
+db.sqlite3
+
+
+# Local env files
+*.env
+.env.*
+!.env.example
+
+# Django dev/build outputs
+*/settings_local.py
+*/localsettings.py
+backend/core/files/locale
+backend/core/files/media
+backend/core/files/logs
+backend/core/files/static
+
+
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+
+
