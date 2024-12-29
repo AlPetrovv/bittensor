@@ -1,0 +1,14 @@
+location /media  {
+    alias /home/app/files/media/;
+    expires 7d;
+}
+
+location /static_source {
+    alias /home/app/files/static_source/;
+    expires 7d;
+}
+
+location /static {
+    alias /home/app/files/static/;
+    expires 7d;
+}
