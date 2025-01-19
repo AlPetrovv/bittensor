@@ -26,6 +26,8 @@ class CustomUserManager(BaseUserManager):
 
 
 class AuthUser(AbstractBaseUser, PermissionsMixin):
+    """Base user model for authentication."""
+
     email = models.EmailField(max_length=100, unique=True)
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)

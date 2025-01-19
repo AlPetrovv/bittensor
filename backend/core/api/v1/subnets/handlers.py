@@ -8,9 +8,9 @@ from rest_framework.response import Response
 
 from apps.chats.models import Chat
 from apps.subnets.models import Subnet
+from ..chats.serializers.chat import SubnetChatsSerializer
 
 from ...base.mixins import SerializerByActionMixin
-from ..chats.serializers import SubnetChatsSerializer
 from .serializers import SubnetSerializer
 
 
@@ -27,6 +27,7 @@ class SubnetViewSet(
 
     @action(methods=["get"], detail=True, permission_classes=[IsAuthenticated])
     def chats(self, request, *args, **kwargs):
+        """Get chats for subnet"""
         subnet = self.get_object()
         user = request.user
         chats = Chat.objects.filter(subnet=subnet, user=user)

@@ -1,8 +1,5 @@
-from rest_framework.permissions import BasePermission
-
-
 class SerializerByActionMixin:
-    """The class which selects specific parameters for specific action"""
+    """The class which selects specific serializer class for specific action"""
 
     def get_serializer_class(self):
         try:
