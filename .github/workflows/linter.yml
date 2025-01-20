@@ -15,7 +15,7 @@ jobs:
           cd backend/core
           pip install poetry
           poetry config virtualenvs.create false
-          poetry install --with=linters --no-interaction --no-ansi
+          poetry install --with=linters --no-interaction --no-ansi --no-root
 
       - name: Black check
         run: |
