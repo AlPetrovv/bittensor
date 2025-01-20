@@ -10,22 +10,19 @@ jobs:
         with:
           python-version: 3.10.12
 
-      - name: CD to workdir
-        run: cd backend/core
-
       - name: Install dependencies
-        uses: CD to workdir
         run: |
+          cd backend/core
           pip install poetry
           poetry config virtualenvs.create false
           poetry install --with=linters --no-interaction --no-ansi
 
       - name: Black check
-        uses: CD to workdir
         run: |
+          cd backend/core
           black --check .
 
       - name : flake8 check
-        uses: CD to workdir
         run: |
+          cd backend/core
           flake8 --append-config .flake8
