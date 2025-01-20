@@ -12,6 +12,11 @@ A subnet, or subnetwork, is a network inside a network. In our case, the subnet 
 - [Postgres](https://www.postgresql.org/)
 - [Docker Compose](https://docs.docker.com/compose/)
 - [Nginx](https://www.nginx.org/)
+- [Vue.js](https://vuejs.org/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+Also use [openai](https://platform.openai.com/docs/overview)
 
 ### Structure
 
@@ -20,8 +25,12 @@ A subnet, or subnetwork, is a network inside a network. In our case, the subnet 
       1. [api](https://github.com/AlPetrovv/bittensor/tree/main/backend/core/api)
       2. [apps](https://github.com/AlPetrovv/bittensor/tree/main/backend/core/apps)
       3. [tests](https://github.com/AlPetrovv/bittensor/tree/main/backend/core/tests)
-      4. [app_envs](https://github.com/AlPetrovv/bittensor/tree/main/backend/core/app_envs)
+      4. [app_envs](https://github.com/AlPetrovv/bittensor/tree/main/backend/app_envs)
       5. [nginx](https://github.com/AlPetrovv/bittensor/tree/main/nginx)
 2. [docker_compose](https://github.com/AlPetrovv/bittensor/tree/main/docker_compose)
    1. [docker_envs](https://github.com/AlPetrovv/bittensor/tree/main/docker_compose/envs)
 3. [Frontend](https://github.com/AlPetrovv/bittensor/tree/main/frontend)
+4. [nginx](https://github.com/AlPetrovv/bittensor/tree/main/nginx)
+
+### Installing
+See more in [INSTALL.md](https://github.com/AlPetrovv/bittensor/tree/main/INSTALL.md)
