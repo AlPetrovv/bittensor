@@ -6,7 +6,7 @@
 2. create env files by templates in directories `backend/envs` and `docker_compose/envs`
 3. `make dev-run` if use docker-compose.
 If you do not use docker-compose, do next steps:
-   1. `cd backend`
+   1. `cd backend/core`
    2. ```shell
       poetry install --no-root
       ``` 
