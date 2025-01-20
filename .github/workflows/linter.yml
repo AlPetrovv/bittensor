@@ -1,5 +1,5 @@
 name: linter
-on: [pull_request]
+on: [push]
 
 jobs:
   linter:
@@ -10,12 +10,22 @@ jobs:
         with:
           python-version: 3.10.12
 
+      - name: CD to workdir
+        run: cd backend/core
+
       - name: Install dependencies
+        uses: CD to workdir
         run: |
           pip install poetry
           poetry config virtualenvs.create false
-          poetry install --no-interaction --no-ansi  
+          poetry install --with=linters --no-interaction --no-ansi
 
       - name: Black check
+        uses: CD to workdir
         run: |
           black --check .
+
+      - name : flake8 check
+        uses: CD to workdir
+        run: |
+          flake8 --append-config .flake8

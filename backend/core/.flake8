@@ -1,0 +1,13 @@
+[flake8]
+exclude =
+    migrations,
+    .git,
+    __pycache__
+    localsettings.py
+max-line-length = 119
+
+ignore =
+    # H101: Use TODO(NAME)
+    H101,
+    # H401: docstring should not start with a space
+    H401

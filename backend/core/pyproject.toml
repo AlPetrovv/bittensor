@@ -20,13 +20,17 @@ requests = "^2.32.3"
 isort = "^5.13.2"
 openai = "^1.58.1"
 djoser = "^2.3.1"
-black = "^24.10.0"
 
 
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.4"
 factory-boy = "^3.3.1"
+
+
+[tool.poetry.group.linters.dependencies]
+black = "^24.10.0"
+flake8 = "^7.1.1"
 
 [build-system]
 requires = ["poetry-core"]
