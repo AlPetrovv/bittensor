@@ -13,8 +13,10 @@ class ChatAdmin(ModelAdmin):
 
 
 @register(Question)
-class QuestionAdmin(ModelAdmin): ...
+class QuestionAdmin(ModelAdmin):
+    pass
 
 
 @register(Answer)
-class AnswerAdmin(ModelAdmin): ...
+class AnswerAdmin(ModelAdmin):
+    pass

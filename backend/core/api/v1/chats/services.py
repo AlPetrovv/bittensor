@@ -1,6 +1,5 @@
 import logging
 import random
-from xmlrpc.client import TRANSPORT_ERROR
 
 import apps.chats.services as chat_services
 from apps.chats.models import Answer
